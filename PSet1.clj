@@ -109,12 +109,12 @@
 ;; Problem 4
 ;; Takes: one or more functions (f's)
 ;; Returns: a new function (g), that is a composition of the old functions)
-(defn my-comp [f-n & other-fs]
+(defn my-comp [f1 & fns]
   (reduce (fn [g f]
             (fn [& params]
               (g (apply f params))))
-          f-n
-          other-fs))
+          f1
+          fns))
 
 ;; Tests
 ((my-comp - -) 1 2) ;; 1
