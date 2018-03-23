@@ -1,4 +1,4 @@
-(ns pset-1)
+(ns pset1)
 
 ;; Problem 1
 ;; Takes: 1 or more rational numbers.

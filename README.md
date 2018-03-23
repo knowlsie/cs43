@@ -1,3 +1,3 @@
-# CS 43 PSets
+# CS43 (Functional Programming in Clojure) PSets
 
-These are probably buggy, but I figured I'd get them in early anyway. Let me know if anything needs changing!
+My solutions to Stanford's CS43 PSets.
